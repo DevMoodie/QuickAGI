@@ -11,27 +11,23 @@
 		5940E31829E99318009200DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E31729E99318009200DE /* ContentView.swift */; };
 		5940E31A29E99319009200DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5940E31929E99319009200DE /* Assets.xcassets */; };
 		5940E31E29E99319009200DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5940E31D29E99319009200DE /* Preview Assets.xcassets */; };
-		5940E32829E99319009200DE /* QuickAGITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E32729E99319009200DE /* QuickAGITests.swift */; };
-		5940E33229E99319009200DE /* QuickAGIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E33129E99319009200DE /* QuickAGIUITests.swift */; };
-		5940E33429E99319009200DE /* QuickAGIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E33329E99319009200DE /* QuickAGIUITestsLaunchTests.swift */; };
+		5940E34129E99675009200DE /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E34029E99675009200DE /* ChatGPTAPI.swift */; };
+		5940E34329E996F3009200DE /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E34229E996F3009200DE /* ChatGPTAPIModels.swift */; };
+		59DCCD5629E99CC300C803B1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5529E99CC300C803B1 /* ViewModel.swift */; };
+		59DCCD5829E99D4E00C803B1 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5729E99D4E00C803B1 /* MessageRow.swift */; };
+		59DCCD5A29EA205400C803B1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5929EA205400C803B1 /* LoadingView.swift */; };
+		59DCCD5C29EA219D00C803B1 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5B29EA219D00C803B1 /* MessageRowView.swift */; };
+		59DCCD6429EA288400C803B1 /* QuickAGIMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD6329EA288400C803B1 /* QuickAGIMacApp.swift */; };
+		59DCCD6829EA288500C803B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DCCD6729EA288500C803B1 /* Assets.xcassets */; };
+		59DCCD6B29EA288500C803B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DCCD6A29EA288500C803B1 /* Preview Assets.xcassets */; };
+		59DCCD8C29EA28D800C803B1 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E34229E996F3009200DE /* ChatGPTAPIModels.swift */; };
+		59DCCD8D29EA28D800C803B1 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E34029E99675009200DE /* ChatGPTAPI.swift */; };
+		59DCCD8E29EA28D800C803B1 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5729E99D4E00C803B1 /* MessageRow.swift */; };
+		59DCCD8F29EA28D800C803B1 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5B29EA219D00C803B1 /* MessageRowView.swift */; };
+		59DCCD9029EA28D800C803B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940E31729E99318009200DE /* ContentView.swift */; };
+		59DCCD9129EA28D800C803B1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5529E99CC300C803B1 /* ViewModel.swift */; };
+		59DCCD9229EA28D800C803B1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCCD5929EA205400C803B1 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5940E32429E99319009200DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5940E30A29E99318009200DE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5940E31129E99318009200DE;
-			remoteInfo = QuickAGI;
-		};
-		5940E32E29E99319009200DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5940E30A29E99318009200DE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5940E31129E99318009200DE;
-			remoteInfo = QuickAGI;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5940E31229E99318009200DE /* QuickAGI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickAGI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,11 +36,17 @@
 		5940E31929E99319009200DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5940E31B29E99319009200DE /* QuickAGI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickAGI.entitlements; sourceTree = "<group>"; };
 		5940E31D29E99319009200DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5940E32329E99319009200DE /* QuickAGITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickAGITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5940E32729E99319009200DE /* QuickAGITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAGITests.swift; sourceTree = "<group>"; };
-		5940E32D29E99319009200DE /* QuickAGIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickAGIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5940E33129E99319009200DE /* QuickAGIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAGIUITests.swift; sourceTree = "<group>"; };
-		5940E33329E99319009200DE /* QuickAGIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAGIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5940E34029E99675009200DE /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		5940E34229E996F3009200DE /* ChatGPTAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPIModels.swift; sourceTree = "<group>"; };
+		59DCCD5529E99CC300C803B1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		59DCCD5729E99D4E00C803B1 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		59DCCD5929EA205400C803B1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		59DCCD5B29EA219D00C803B1 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		59DCCD6129EA288400C803B1 /* QuickAGIMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickAGIMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DCCD6329EA288400C803B1 /* QuickAGIMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAGIMacApp.swift; sourceTree = "<group>"; };
+		59DCCD6729EA288500C803B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59DCCD6A29EA288500C803B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59DCCD6C29EA288500C803B1 /* QuickAGIMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickAGIMac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +57,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5940E32029E99319009200DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5940E32A29E99319009200DE /* Frameworks */ = {
+		59DCCD5E29EA288400C803B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,9 +70,9 @@
 		5940E30929E99318009200DE = {
 			isa = PBXGroup;
 			children = (
+				5940E34429E996FA009200DE /* Shared */,
 				5940E31429E99318009200DE /* QuickAGI */,
-				5940E32629E99319009200DE /* QuickAGITests */,
-				5940E33029E99319009200DE /* QuickAGIUITests */,
+				59DCCD6229EA288400C803B1 /* QuickAGIMac */,
 				5940E31329E99318009200DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				5940E31229E99318009200DE /* QuickAGI.app */,
-				5940E32329E99319009200DE /* QuickAGITests.xctest */,
-				5940E32D29E99319009200DE /* QuickAGIUITests.xctest */,
+				59DCCD6129EA288400C803B1 /* QuickAGIMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				5940E31529E99318009200DE /* QuickAGIApp.swift */,
-				5940E31729E99318009200DE /* ContentView.swift */,
 				5940E31929E99319009200DE /* Assets.xcassets */,
 				5940E31B29E99319009200DE /* QuickAGI.entitlements */,
 				5940E31C29E99319009200DE /* Preview Content */,
@@ -112,21 +105,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5940E32629E99319009200DE /* QuickAGITests */ = {
+		5940E34429E996FA009200DE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5940E32729E99319009200DE /* QuickAGITests.swift */,
+				5940E34029E99675009200DE /* ChatGPTAPI.swift */,
+				5940E34229E996F3009200DE /* ChatGPTAPIModels.swift */,
+				5940E31729E99318009200DE /* ContentView.swift */,
+				59DCCD5529E99CC300C803B1 /* ViewModel.swift */,
+				59DCCD5729E99D4E00C803B1 /* MessageRow.swift */,
+				59DCCD5B29EA219D00C803B1 /* MessageRowView.swift */,
+				59DCCD5929EA205400C803B1 /* LoadingView.swift */,
 			);
-			path = QuickAGITests;
+			path = Shared;
 			sourceTree = "<group>";
 		};
-		5940E33029E99319009200DE /* QuickAGIUITests */ = {
+		59DCCD6229EA288400C803B1 /* QuickAGIMac */ = {
 			isa = PBXGroup;
 			children = (
-				5940E33129E99319009200DE /* QuickAGIUITests.swift */,
-				5940E33329E99319009200DE /* QuickAGIUITestsLaunchTests.swift */,
+				59DCCD6329EA288400C803B1 /* QuickAGIMacApp.swift */,
+				59DCCD6729EA288500C803B1 /* Assets.xcassets */,
+				59DCCD6C29EA288500C803B1 /* QuickAGIMac.entitlements */,
+				59DCCD6929EA288500C803B1 /* Preview Content */,
 			);
-			path = QuickAGIUITests;
+			path = QuickAGIMac;
+			sourceTree = "<group>";
+		};
+		59DCCD6929EA288500C803B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59DCCD6A29EA288500C803B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,41 +158,22 @@
 			productReference = 5940E31229E99318009200DE /* QuickAGI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5940E32229E99319009200DE /* QuickAGITests */ = {
+		59DCCD6029EA288400C803B1 /* QuickAGIMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5940E33A29E99319009200DE /* Build configuration list for PBXNativeTarget "QuickAGITests" */;
+			buildConfigurationList = 59DCCD8329EA288600C803B1 /* Build configuration list for PBXNativeTarget "QuickAGIMac" */;
 			buildPhases = (
-				5940E31F29E99319009200DE /* Sources */,
-				5940E32029E99319009200DE /* Frameworks */,
-				5940E32129E99319009200DE /* Resources */,
+				59DCCD5D29EA288400C803B1 /* Sources */,
+				59DCCD5E29EA288400C803B1 /* Frameworks */,
+				59DCCD5F29EA288400C803B1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5940E32529E99319009200DE /* PBXTargetDependency */,
 			);
-			name = QuickAGITests;
-			productName = QuickAGITests;
-			productReference = 5940E32329E99319009200DE /* QuickAGITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5940E32C29E99319009200DE /* QuickAGIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5940E33D29E99319009200DE /* Build configuration list for PBXNativeTarget "QuickAGIUITests" */;
-			buildPhases = (
-				5940E32929E99319009200DE /* Sources */,
-				5940E32A29E99319009200DE /* Frameworks */,
-				5940E32B29E99319009200DE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5940E32F29E99319009200DE /* PBXTargetDependency */,
-			);
-			name = QuickAGIUITests;
-			productName = QuickAGIUITests;
-			productReference = 5940E32D29E99319009200DE /* QuickAGIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = QuickAGIMac;
+			productName = QuickAGIMac;
+			productReference = 59DCCD6129EA288400C803B1 /* QuickAGIMac.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,13 +188,8 @@
 					5940E31129E99318009200DE = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					5940E32229E99319009200DE = {
+					59DCCD6029EA288400C803B1 = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 5940E31129E99318009200DE;
-					};
-					5940E32C29E99319009200DE = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 5940E31129E99318009200DE;
 					};
 				};
 			};
@@ -222,8 +207,7 @@
 			projectRoot = "";
 			targets = (
 				5940E31129E99318009200DE /* QuickAGI */,
-				5940E32229E99319009200DE /* QuickAGITests */,
-				5940E32C29E99319009200DE /* QuickAGIUITests */,
+				59DCCD6029EA288400C803B1 /* QuickAGIMac */,
 			);
 		};
 /* End PBXProject section */
@@ -238,17 +222,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5940E32129E99319009200DE /* Resources */ = {
+		59DCCD5F29EA288400C803B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5940E32B29E99319009200DE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				59DCCD6B29EA288500C803B1 /* Preview Assets.xcassets in Resources */,
+				59DCCD6829EA288500C803B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,42 +238,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DCCD5629E99CC300C803B1 /* ViewModel.swift in Sources */,
+				5940E34129E99675009200DE /* ChatGPTAPI.swift in Sources */,
+				59DCCD5829E99D4E00C803B1 /* MessageRow.swift in Sources */,
 				5940E31829E99318009200DE /* ContentView.swift in Sources */,
+				5940E34329E996F3009200DE /* ChatGPTAPIModels.swift in Sources */,
+				59DCCD5A29EA205400C803B1 /* LoadingView.swift in Sources */,
 				5940E31629E99318009200DE /* QuickAGIApp.swift in Sources */,
+				59DCCD5C29EA219D00C803B1 /* MessageRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5940E31F29E99319009200DE /* Sources */ = {
+		59DCCD5D29EA288400C803B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5940E32829E99319009200DE /* QuickAGITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5940E32929E99319009200DE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5940E33429E99319009200DE /* QuickAGIUITestsLaunchTests.swift in Sources */,
-				5940E33229E99319009200DE /* QuickAGIUITests.swift in Sources */,
+				59DCCD8D29EA28D800C803B1 /* ChatGPTAPI.swift in Sources */,
+				59DCCD9029EA28D800C803B1 /* ContentView.swift in Sources */,
+				59DCCD6429EA288400C803B1 /* QuickAGIMacApp.swift in Sources */,
+				59DCCD8F29EA28D800C803B1 /* MessageRowView.swift in Sources */,
+				59DCCD8C29EA28D800C803B1 /* ChatGPTAPIModels.swift in Sources */,
+				59DCCD9129EA28D800C803B1 /* ViewModel.swift in Sources */,
+				59DCCD8E29EA28D800C803B1 /* MessageRow.swift in Sources */,
+				59DCCD9229EA28D800C803B1 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5940E32529E99319009200DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5940E31129E99318009200DE /* QuickAGI */;
-			targetProxy = 5940E32429E99319009200DE /* PBXContainerItemProxy */;
-		};
-		5940E32F29E99319009200DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5940E31129E99318009200DE /* QuickAGI */;
-			targetProxy = 5940E32E29E99319009200DE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5940E33529E99319009200DE /* Debug */ = {
@@ -437,7 +407,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,100 +447,72 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5940E33B29E99319009200DE /* Debug */ = {
+		59DCCD8429EA288600C803B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuickAGIMac/QuickAGIMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickAGIMac/Preview Content\"";
 				DEVELOPMENT_TEAM = 4LVL647LQT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGIMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickAGI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickAGI";
 			};
 			name = Debug;
 		};
-		5940E33C29E99319009200DE /* Release */ = {
+		59DCCD8529EA288600C803B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuickAGIMac/QuickAGIMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickAGIMac/Preview Content\"";
 				DEVELOPMENT_TEAM = 4LVL647LQT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGIMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickAGI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickAGI";
-			};
-			name = Release;
-		};
-		5940E33E29E99319009200DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LVL647LQT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = QuickAGI;
-			};
-			name = Debug;
-		};
-		5940E33F29E99319009200DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LVL647LQT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deenod.QuickAGIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = QuickAGI;
 			};
 			name = Release;
 		};
@@ -593,20 +537,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5940E33A29E99319009200DE /* Build configuration list for PBXNativeTarget "QuickAGITests" */ = {
+		59DCCD8329EA288600C803B1 /* Build configuration list for PBXNativeTarget "QuickAGIMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5940E33B29E99319009200DE /* Debug */,
-				5940E33C29E99319009200DE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5940E33D29E99319009200DE /* Build configuration list for PBXNativeTarget "QuickAGIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5940E33E29E99319009200DE /* Debug */,
-				5940E33F29E99319009200DE /* Release */,
+				59DCCD8429EA288600C803B1 /* Debug */,
+				59DCCD8529EA288600C803B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
