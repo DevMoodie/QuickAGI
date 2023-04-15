@@ -15,17 +15,22 @@ struct QuickAGIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(vm: viewModel)
-                .toolbar {
-                    ToolbarItem {
-                        Button {
-                            viewModel.clearMessages()
-                        } label: {
-                            Text("Clear")
+            NavigationStack {
+                ContentView(vm: viewModel)
+                    .toolbar {
+                        ToolbarItem {
+                            Button {
+                                viewModel.clearMessages()
+                            } label: {
+                                Image(systemName: "trash")
+                                    .font(.callout)
+                                    .foregroundColor(.white)
+                            }
+                            .disabled(viewModel.isInteractingWithChatGPT)
                         }
-                        .disabled(viewModel.isInteractingWithChatGPT)
                     }
-                }
+                    .preferredColorScheme(.dark)
+            }
         }
     }
 }

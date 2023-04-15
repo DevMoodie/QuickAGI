@@ -24,6 +24,7 @@ struct ContentView: View {
     var chatListView: some View {
         ScrollViewReader { proxy in
             VStack(spacing: 0) {
+                Divider()
                 ScrollView {
                     LazyVStack(spacing: 0) {
                         ForEach(vm.messages) { message in
